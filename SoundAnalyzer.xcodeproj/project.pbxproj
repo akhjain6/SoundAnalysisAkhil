@@ -13,6 +13,10 @@
 		E91A157F2451E392000A1941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91A157D2451E392000A1941 /* Main.storyboard */; };
 		E91A15812451E396000A1941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91A15802451E396000A1941 /* Assets.xcassets */; };
 		E91A15842451E396000A1941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91A15822451E396000A1941 /* LaunchScreen.storyboard */; };
+		E968F02E245BF52B003229E0 /* guitar2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E968F02A245BF52A003229E0 /* guitar2.wav */; };
+		E968F02F245BF52B003229E0 /* flute7.wav in Resources */ = {isa = PBXBuildFile; fileRef = E968F02B245BF52A003229E0 /* flute7.wav */; };
+		E968F030245BF52B003229E0 /* drum1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E968F02C245BF52B003229E0 /* drum1.wav */; };
+		E968F031245BF52B003229E0 /* SoundClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E968F02D245BF52B003229E0 /* SoundClassifier1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E91A15802451E396000A1941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91A15832451E396000A1941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91A15852451E396000A1941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E968F02A245BF52A003229E0 /* guitar2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar2.wav; sourceTree = "<group>"; };
+		E968F02B245BF52A003229E0 /* flute7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flute7.wav; sourceTree = "<group>"; };
+		E968F02C245BF52B003229E0 /* drum1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum1.wav; sourceTree = "<group>"; };
+		E968F02D245BF52B003229E0 /* SoundClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SoundClassifier1.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				E91A157B2451E392000A1941 /* ViewController.swift */,
 				E91A157D2451E392000A1941 /* Main.storyboard */,
 				E91A15802451E396000A1941 /* Assets.xcassets */,
+				E968F02C245BF52B003229E0 /* drum1.wav */,
+				E968F02B245BF52A003229E0 /* flute7.wav */,
+				E968F02A245BF52A003229E0 /* guitar2.wav */,
+				E968F02D245BF52B003229E0 /* SoundClassifier1.mlmodel */,
 				E91A15822451E396000A1941 /* LaunchScreen.storyboard */,
 				E91A15852451E396000A1941 /* Info.plist */,
 			);
@@ -126,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91A15842451E396000A1941 /* LaunchScreen.storyboard in Resources */,
+				E968F02E245BF52B003229E0 /* guitar2.wav in Resources */,
+				E968F02F245BF52B003229E0 /* flute7.wav in Resources */,
 				E91A15812451E396000A1941 /* Assets.xcassets in Resources */,
+				E968F030245BF52B003229E0 /* drum1.wav in Resources */,
 				E91A157F2451E392000A1941 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				E91A157C2451E392000A1941 /* ViewController.swift in Sources */,
 				E91A15782451E392000A1941 /* AppDelegate.swift in Sources */,
 				E91A157A2451E392000A1941 /* SceneDelegate.swift in Sources */,
+				E968F031245BF52B003229E0 /* SoundClassifier1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
